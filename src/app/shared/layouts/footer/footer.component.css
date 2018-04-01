@@ -1,0 +1,50 @@
+.footerpara{
+    color: #FB757B;
+    font-family: montserratlight - 500;
+    font-weight: 400;
+}
+.resourcesRight{
+    margin-left: 25px;
+}
+.overview{
+    margin-left: 15px;
+    color:#62696d;
+    text-decoration:none;
+    font-family: montserratregular - 400;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .overview:hover{
+    color: #FB757B;
+    text-decoration:none;
+  }
+  
+.rc{
+    width:186px;
+    color:#62696d;
+    font-size: 12px;
+    font-family: montserratlight - 400;
+    font-weight: 400;
+    text-decoration:none;
+    
+  }
+  .rc:hover{
+    color: #FB757B;
+    text-decoration:none;
+  }
+  
+  .caption{
+    margin-top: 5px;
+  }
+
+  .sns{
+    color:#62696d;
+    font-size: 14px;
+    text-decoration:none;
+    font-family: montserratregular - 400;
+    font-weight: 400;
+  }
+  .sns:hover{
+    color: #FB757B;
+    text-decoration:none;
+  }
