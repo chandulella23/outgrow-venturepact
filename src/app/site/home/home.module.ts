@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IndexHomeComponent } from './index-home/index-home.component';
 
-import { routing } from './home.routing';
+import { RouterModule } from '@angular/router';
+import { routes } from './home.routing';
 
 @NgModule({
   imports: [
     CommonModule,
-    routing
+    RouterModule.forChild(routes)
   ],
   declarations: [IndexHomeComponent]
 })

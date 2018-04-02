@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { routing } from './site.routing';
+import { RouterModule } from '@angular/router';
+import { routes } from './site.routing';
 
 @NgModule({
   imports: [
     CommonModule,
-    routing
+    RouterModule.forChild(routes)
   ],
   declarations: []
 })

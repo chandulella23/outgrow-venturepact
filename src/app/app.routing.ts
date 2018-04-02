@@ -3,11 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 
-const routes: Routes = [
+export const routes: Routes = [
   
   
   { path: '', loadChildren: './site/site.module#SiteModule' },
   
 ];
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
+// export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

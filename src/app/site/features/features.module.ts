@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FeaturesHomeComponent } from './features-home/features-home.component';
 
-import { routing } from './features.routing';
+import { RouterModule } from '@angular/router';
+import { routes } from './features.routing';
 
 @NgModule({
   imports: [
     CommonModule,
-    routing
+    RouterModule.forChild(routes)
   ],
   declarations: [FeaturesHomeComponent]
 })
