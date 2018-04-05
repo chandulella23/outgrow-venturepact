@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { routing } from './site.routing';
-import { VideoUrlService } from './video-url.service';
+import {VideoUrlService} from "./video-url.service";
+import { RouterModule } from '@angular/router';
+import { routes } from './site.routing';
 
 @NgModule({
   imports: [
     CommonModule,
-    routing
+    RouterModule.forChild(routes)
   ],
   providers:[
     VideoUrlService

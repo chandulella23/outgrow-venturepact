@@ -3,6 +3,12 @@ p{
     font-family: montserratlight - 500;
     font-weight: 400;
   }
+  .settingFeatures{
+    padding: 0px 100px 0px 100px;
+  }
+  .settingFeatures1{
+    padding-right: 50px;
+  }
 .textlines{
     color:#62696d;
     margin-left:10px;
@@ -30,9 +36,13 @@ p{
   }
   .feat1{
     font-size: 14px;
+    text-align: center;
     color: #CBCDCE;
     font-weight: 400;
     font-family: montserratlight - 400;
+  }
+  .feat1Pad{
+    padding: 20px;
   }
   .feathead{
     font-family: montserratlight - 400;
@@ -44,12 +54,10 @@ p{
     font-weight: 400;
   }  
   .feabutton{
-    border-radius: 28px;
+    height:50px;
+    width:350px;
+    border-radius: 22.5px;
     border: 1px solid #FB5F66;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 25px;
-    padding-right: 25px;
     background-color:white;
   }
   .feabutton:active{
@@ -144,6 +152,10 @@ p{
   }
   .featureredicons{
     color: white;
+  }
+  .heading-icons{
+    color: #FB5F66;
+    font-size:60px;
   }
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
