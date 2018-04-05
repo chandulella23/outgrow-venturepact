@@ -1,6 +1,7 @@
 
 .nav-link{
     color : grey;
+    padding-top: 0px;
 }
  a:hover {
    color: #ec5b6a;
@@ -17,12 +18,16 @@ h4{
     font-size : 23px;
 }
 
-.btn-round{
-border-radius: 22.5px;
+.round{
+border-radius: 50px;
 background-color: #ec5b6a;
 border: 2px solid #FB757B;
 color:#fff;
-font-size: 15px;
+font-size: 14px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 6px;
+padding-right: 6px;
 }
 
 .btn-round a:link {
@@ -47,10 +52,10 @@ font-size: 15px;
 .toggle{
     width:100%;
     padding : 10px 20px;
-    background: #ec5b6a;
+    background: #fff;
     text-align:right;
     box-sizing : border-box;
-    color: #ffff;
+    color: #ec5b6a;
     font-size : 25px;
     display:none;
 }

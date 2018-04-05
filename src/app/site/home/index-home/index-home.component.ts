@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { VideoUrlService } from '../../video-url.service';
 
 @Component({
   selector: 'app-index-home',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./index-home.component.css']
 })
 export class IndexHomeComponent implements OnInit {
-
-  constructor() { }
+  
+  constructor(private videoURLService:VideoUrlService) { }
 
   ngOnInit() {
   }
-
+  videoURL(type,frame){
+    this.videoURLService.videoURL(type,frame);
+  }
 }
+
+

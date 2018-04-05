@@ -1,0 +1,33 @@
+.vl2 {
+    border-left: 2px solid rgb(245, 245, 245);
+    height: 530px;
+    padding-left: 25px;
+    padding-right: 2px;
+}
+
+.text-grey{
+    color : grey;
+  }
+  
+  .text-dark-grey1{
+    color : grey;
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .text-dark-grey2{
+    color : grey;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right:34px;
+  }
+
+  .text1{
+    color: #ec5b6a;
+    font-size: 27px;
+    font-weight: 400;
+  }
+
+  .text2{
+    color : rgb(94, 94, 94);
+    font-size: 17px;
+  }

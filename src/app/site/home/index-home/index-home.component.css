@@ -1,0 +1,83 @@
+input[type=text]
+ {
+    width: 34%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    resize: vertical;
+}
+.start-trail{
+    border-radius: 50px;
+    height: 51px;
+    width: 170px;
+    margin-left: -85px; 
+    background-color: #ec5b6a;
+    color:#fff;
+}
+.vl {
+        
+    height: 0px;
+    
+}
+li{
+    list-style-type : none;
+}
+
+@media only screen and (min-width: 1020px) {
+    .vl {
+    border-left: 4px solid #ec5b6a;
+    height: 500px;
+    }
+}
+p{
+    color: #ec5b6a;
+    font-size : 30px;
+}
+
+
+h4{
+    color: #ec5b6a;
+    font-size : 23px;
+}
+
+.toolkit{
+    color : rgb(133, 132, 132);
+}
+
+.card1-text1{
+    color: rgb(80, 79, 79);
+    font-size:50px;
+    font-weight: 200;
+}
+.card1-text2{
+    color: rgb(133, 132, 132);
+    font-size:16px;
+    font-weight: 200;
+}
+
+.link1 a{
+    color :#ec5b6a;;
+    font-size : 15px;
+}
+.frame-style{
+    height: 626px;
+    width: 1000px;
+    box-shadow: 8px 8px 8px #888888;
+}
+#calcimg{
+    width: 132px;
+    height: 75px;
+}
+.img-wrapper{
+    padding: 35px 0px;
+    margin : 0 auto;
+}
+
+.img-wrapper img{
+    margin-right:15px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+    width: 11%;
+    filter: grayscale(1);
+    opacity: 0.5;
+}

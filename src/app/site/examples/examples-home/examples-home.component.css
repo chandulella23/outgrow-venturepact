@@ -1,0 +1,36 @@
+p{
+    color: FB757B;
+    font-family: montserratlight - 500;
+    font-weight: 400;
+  }
+.example_heading{
+    font-family: montserratregular - 400;
+    font-weight: 400;
+    background-color:#FB6C73;
+    width:auto;
+    height:150px;
+    text-align:center;
+    font-size: 30px;
+    color:white;
+    display:block;
+}
+#calcimg{
+    width: 132px;
+    height: 75px;
+  }
+  #exbutton{
+    background-color: white;
+    color: black;
+    border:none;
+  }
+  #exbutton:hover{
+      background-color:#FDB6B9 ;
+      color:#FF5233;
+      border:none;
+  }
+  
+  .frame-style{
+    height: 626px;
+    width: 1000px;
+    box-shadow: 8px 8px 8px #888888;
+}
