@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExamplesHomeComponent implements OnInit {
 
+//   imgList = [
+//     {
+//       url:'assets/images/calc06.jpg'
+//     },
+//     {
+//       url:'assets/images/calc06.jpg'
+//     },
+//     {
+//       url:'assets/images/calc06.jpg'
+//     }
+// ]
   constructor() { }
 
   ngOnInit() {
   }
 
+  firedfunc(){
+    document.write("hello")
+  }
 }

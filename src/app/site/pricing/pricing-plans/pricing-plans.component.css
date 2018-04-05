@@ -1,0 +1,80 @@
+.theadHead{
+    
+        font-size: 15px;
+        color: #62696d;
+        text-transform: uppercase;
+    
+}
+.theadHead1{
+    font-size: 36px !important;
+    color: #009ad8;
+}
+.head1{
+    text-align:center;
+    color:#62696D;
+    font-size: 18px;
+    font-family: montserratregular;
+}
+td{
+    width: 20%;
+}
+
+    tr:hover{
+    background-color:#F5FBFF;
+    }
+    table .collapse.in {
+        display:table-row;
+    }	
+    .glyphicon{
+    color:#2b93be;
+    margin-right:15px;
+    }
+    .parentText{
+    font-size:12px;
+    color:#797f83;
+    }
+    .parentHeadText{
+    font-size:12px;
+    color:#2b93be;
+    }
+    .childText{
+    font-size:11px;
+    color:#2b93be;
+    }
+    .none {
+        background: url(https://cdn.filestackcontent.com/xyAejZc9RR2cLQNSTqnP) no-repeat;
+        width: 13px;
+        height: 13px;
+        background-position: center;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 5px;
+    }
+    .full {
+        background: url(https://cdn.filestackcontent.com/Mcu6lZxSdC4be8yWuAm5) no-repeat;
+        width: 13px;
+        height: 13px;
+        background-position: center;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 5px;
+    }
+    .half {
+        background: url(https://cdn.filestackcontent.com/WIbfARSQyq4KqKfJGLx4) no-repeat;
+        width: 13px;
+        height: 13px;
+        background-position: center;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 5px;
+    }
+        .quater {
+        background: url(https://cdn.filestackcontent.com/jPJvrC2nQi2kRB1MeGUq) no-repeat;
+        width: 13px;
+        height: 13px;
+        background-position: center;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-right: 5px;
+    }
+    

@@ -1,11 +1,88 @@
-
-.nav-link{
-    color : grey;
-}
- a:hover {
-   color: #ec5b6a;
+li { 
+    float: right;
 }
 
+#id1 {
+    margin-left: 380px;
+    
+}
+
+.nav-item{
+    padding-left: 20px;
+    padding-right:10px;
+}
+  .nav-link{
+    font-size: 14px;
+    color: #62696d;
+    text-transform: uppercase;
+    
+}
+.navbar-light:hover{
+    
+    color: #ec5b6a;
+    
+}
+.navbar-toggler{
+    border: none;
+    outline:none;
+    
+}
+#headerTitle{
+    font-size: 14px;
+    color: #62696d;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+#headerTitle:hover{
+    color: #ec5b6a;
+}
+
+#headerTitle0{
+    font-size: 14px;
+    color: #ec5b6a;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+#headerTitle0:hover{
+    color:#fdb0b4;
+    
+}
+
+#headerTitle1:hover{
+    text-decoration: none;
+    color:#fff;
+    border: 2px solid  #FB757B;
+
+}
+.btn-round{
+    border-radius: 22.5px;
+    background-color: #ec5b6a;
+    border: 2px solid #FB757B;
+    color:#fff;
+    font-size: 15px;
+    }
+    
+    .btn-round a:link {
+        text-decoration: none;
+    }
+    
+    .btn-round a:visited {
+        text-decoration: none;
+        color:#fff;
+    }
+    
+    .btn-round a:hover {
+        text-decoration: none;
+        color:#fff;
+        border: 2px solid  #ec5b6a;
+    
+    }
+   
+    
+    .btn-round a.active{
+        text-decoration: none;
+    }
+/* 
 p{
     color: #ec5b6a;
     font-size : 30px;
@@ -63,11 +140,14 @@ font-size: 15px;
     }
     ul li{
         display: block;
-        text-align: center;
     }
 }
 
 #header-effect {
     padding: 10px;
     box-shadow: 1px 3px 5px rgb(252, 247, 247);
+} */
+
+.mll{
+    float:right;
 }

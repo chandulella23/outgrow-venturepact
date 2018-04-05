@@ -1,0 +1,16 @@
+.foobutton:hover{
+    background-color: #FB757B;
+    border: 2px solid #FB5F66;
+    text-decoration:none;
+  }
+  .foobutton{
+      margin-top: 25px;
+    height:50px;
+    width:250px;
+    border-radius: 22.5px;
+    font-family: montserratlight - 500;
+    border: 1px solid #FB5F66;
+    background-color: #FB5F66;
+    color:white;
+  }
+ 
