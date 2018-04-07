@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { VideoUrlService } from '../../video-url.service';
+import { VideoUrlService } from '../../../shared/services/video-url.service';
 
 @Component({
   selector: 'app-index-home',

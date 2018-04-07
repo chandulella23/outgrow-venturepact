@@ -23,12 +23,10 @@
     "@angular/router": "^5.2.0",
     "bootstrap": "^4.0.0",
     "core-js": "^2.4.1",
-<<<<<<< HEAD
     "font-awesome": "^4.7.0",
-=======
     "jquery": "^3.3.1",
+    "popper": "^1.0.1",
     "popper.js": "^1.12.3",
->>>>>>> 755ceae979a59398b6ff034407c4b68bde4f9f01
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },

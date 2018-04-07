@@ -19,9 +19,7 @@ td{
     width: 20%;
 }
 
-    tr:hover{
-    background-color:#F5FBFF;
-    }
+    
     table .collapse.in {
         display:table-row;
     }	
@@ -78,3 +76,6 @@ td{
         margin-right: 5px;
     }
     
+    tr,td{
+        border:0px;
+      }
