@@ -5,10 +5,10 @@ import { routes } from './app.routing';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './shared/layouts/header/header.component';
-import { PrivacyComponent } from './shared/layouts/footer/privacy/privacy.component';
-import { TermsComponent } from './shared/layouts/footer/terms/terms.component';
-import { FooterComponent } from './shared/layouts/footer/footer.component';
+import { HeaderComponent } from './shared/components/header/header.component';
+import { PrivacyComponent } from './shared/components/privacy/privacy.component';
+import { TermsComponent } from './shared/components/terms/terms.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 
 @NgModule({

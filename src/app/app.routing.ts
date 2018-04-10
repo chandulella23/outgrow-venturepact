@@ -1,7 +1,7 @@
 
 import { Routes, RouterModule } from '@angular/router';
-import { PrivacyComponent } from './shared/layouts/footer/privacy/privacy.component';
-import { TermsComponent } from './shared/layouts/footer/terms/terms.component';
+import { PrivacyComponent } from './shared/components/privacy/privacy.component';
+import { TermsComponent } from './shared/components/terms/terms.component';
 
 export const routes: Routes = [
   
