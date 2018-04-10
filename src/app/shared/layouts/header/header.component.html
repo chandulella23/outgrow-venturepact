@@ -1,35 +1,49 @@
-<nav class="navbar custom-navbar navbar-light navbar-expand-md bg-faded justify-content-center navbar-fixed-top">
-  <!-- <a href="/" class="navbar-brand d-flex w-50 mr-auto">Brand</a> -->
-  <a class="navbar-brand d-flex w-50 mr-auto" routerLink="/home" style="padding-top: 0%; padding-left:5px;"><img src = "//dzvexx2x036l1.cloudfront.net/logo.png" class="img-responsive"  style="height:auto;" ></a>
-        
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-      <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link " id="headerTitle" routerLink="/why-interactive">WHY INTERACTIVE CONTENT?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " id="headerTitle" routerLink="/features">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " id="headerTitle" routerLink="/pricing">PRICING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " id="headerTitle" routerLink="/examples">EXAMPLES</a>
-          </li>
-          <li class="nav-item" style="padding-top:13px">
-            <a href="//app.outgrow.co/login" class="link-login params">Login</a>
-          </li>
-          <li class="nav-item signUp signUp-style res-nav-hide" style="padding-top:10px">
-            <a href="//app.outgrow.co/signup" class="link-login params">Signup</a>
-          </li>
-          
-      </ul>
-  </div>
-</nav>
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="stylesheet" href="assets/css/custom-sa.css">
+<link rel="stylesheet" href="assets/css/sahil-hover.css">
+<link rel="stylesheet" href="assets/css/home-responsive.css">
+<link rel="stylesheet" href="assets/css/useCase.css">
+<link rel="stylesheet" href="assets/css/animated-masonry-gallery.css" type="text/css" />
+<link rel="stylesheet" href="assets/css/useCase-responsive.css">
 
-
-
-
+    <nav class="navbar custom-navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="params navbar-brand" href="/">
+                    <img src="https://dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" id="navlist">
+                    <li>
+                        <a routerLink="why-interactive"  class="params">Why Interactive Content ?</a>
+                    </li>
+                    <li>
+                        <a routerLink="features"  class="params">Features</a>
+                    </li>
+                    <li>
+                        <a routerLink="pricing"  class="params">Pricing</a>
+                    </li>
+                    <li>
+                        <a routerLink="examples"  class="params">Examples</a>
+                    </li>
+                    <li class="login">
+                        <a href="//app.outgrow.co/login" class="link-login params" >Login</a>
+                    </li>
+                    <li class="signUp signUp-style res-nav-hide">
+                        <a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
+                    </li>
+                    <li class="signUp res-nav-show">
+                        <a href="//app.outgrow.co/signup" class="link-login params">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>

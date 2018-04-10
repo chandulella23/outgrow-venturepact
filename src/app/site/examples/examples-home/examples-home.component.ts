@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { VideoUrlService } from '../../../shared/services/video-url.service';
 
 @Component({
   selector: 'app-examples-home',
@@ -8,11 +7,23 @@ import { VideoUrlService } from '../../../shared/services/video-url.service';
 })
 export class ExamplesHomeComponent implements OnInit {
 
-  constructor(private videoURLService:VideoUrlService) { }
+//   imgList = [
+//     {
+//       url:'assets/images/calc06.jpg'
+//     },
+//     {
+//       url:'assets/images/calc06.jpg'
+//     },
+//     {
+//       url:'assets/images/calc06.jpg'
+//     }
+// ]
+  constructor() { }
 
   ngOnInit() {
   }
-  videoURL(type,frame){
-    this.videoURLService.videoURL(type,frame);
+
+  firedfunc(){
+    document.write("hello")
   }
 }

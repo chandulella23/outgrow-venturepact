@@ -1,4 +1,4 @@
-import { ModuleWithProviders } from '@angular/core';
+
 import { Routes, RouterModule } from '@angular/router';
 import { PrivacyComponent } from './shared/layouts/footer/privacy/privacy.component';
 import { TermsComponent } from './shared/layouts/footer/terms/terms.component';
