@@ -3,21 +3,9 @@
 <link rel="stylesheet" href="assets/css/home-responsive.css">
 <link rel="stylesheet" href="assets/css/feature-responsive.css">
 <div class="" id="feature">
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDL5P5M" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- <app-header></app-header> -->
+    
 
-    <script>
-        jQuery(document).ready(function () {
-            jQuery('.navbar-nav li a').on('click', function () {
-                jQuery('li a').removeClass('active');
-                jQuery(this).addClass('active');
-            });
-
-        });
-    </script>
-    <section class="section section-13">
+    <!-- <section class="section section-13">
         <div class="container-fluid">
             <div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469808665479" style=' text-align:center;'>
                 <div class="feature-heading-1">
@@ -87,7 +75,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <br><br>
     <section class="section rs-hide">
         <div class="container">
             <div class="feature-heading mk-animate-element scale-up head-text">
@@ -753,35 +743,4 @@
         </div>
     </section>
     <!-- <app-footer></app-footer> -->
-    <script>
-        const libs = {
-            "jquery": "https://code.jquery.com/jquery-2.1.4.min.js",
-            "sitemin": "js/site.min.js",
-            "waypoints": "https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js",
-            "features": "js/pageScripts/features.js",
-        }
-            ;
-
-        var loadedLibs = {};
-        var counter = 0;
-        var loadAsync = function (lib) {
-            var http = new XMLHttpRequest();
-            http.open("GET", libs[lib], true);
-            http.onload = function () {
-                loadedLibs[lib] = http.responseText;
-                if (++counter == Object.keys(libs).length) {
-                    startScripts();
-                }
-            }
-            http.send();
-        }
-        var startScripts = function () {
-            for (var lib in libs) {
-                eval(loadedLibs[lib]);
-            }
-        }
-        for (var lib in libs) {
-            loadAsync(lib);
-        } 
-    </script>
-</div>
+    
