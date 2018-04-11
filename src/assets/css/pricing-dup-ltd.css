@@ -971,7 +971,7 @@ label {
 		}
 
 		thead th {
-			background: linear-gradient(tobottom,#ffffff0%,#f5f5f5100%);
+			background: linear-gradient(tobottom,#ffffff 0%,#f5f5f5 100%);
 			text-align: center;
 			position: relative;
 			/*border-bottom: 1px solid #ccc;*/
