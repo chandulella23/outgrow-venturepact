@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Title } from '@angular/platform-browser';
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-privacy',
   templateUrl: './privacy.component.html',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrivacyComponent implements OnInit {
 
-  constructor() { }
+  constructor(router:Router,title:Title) { 
+    title.setTitle("Privacy Policy | Outgrow")
+  }
 
   ngOnInit() {
   }

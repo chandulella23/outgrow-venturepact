@@ -16,23 +16,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="params navbar-brand" href="/">
+                <a class="params navbar-brand" routerLink="" (click)="setTitle0()">
                     <img src="https://dzvexx2x036l1.cloudfront.net/logo.png" alt="logo" />
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right" id="navlist">
                     <li>
-                        <a routerLink="why-interactive"  class="params">Why Interactive Content ?</a>
+                        <a routerLink="why-interactive"  (click)="setTitle1()" class="params">Why Interactive Content ?</a>
                     </li>
                     <li>
-                        <a routerLink="features"  class="params">Features</a>
+                        <a routerLink="features"  (click)="setTitle2()"  class="params">Features</a>
                     </li>
                     <li>
-                        <a routerLink="pricing"  class="params">Pricing</a>
+                        <a routerLink="pricing"  (click)="setTitle3()" class="params">Pricing</a>
                     </li>
                     <li>
-                        <a routerLink="examples"  class="params">Examples</a>
+                        <a routerLink="examples"  (click)="setTitle4()" class="params">Examples</a>
                     </li>
                     <li class="login">
                         <a href="//app.outgrow.co/login" class="link-login params" >Login</a>

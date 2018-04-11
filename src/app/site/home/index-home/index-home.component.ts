@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { VideoUrlService } from '../../../shared/services/video-url.service'
+
+import { Title } from '@angular/platform-browser';
+import { Router } from '@angular/router';
+
+
 @Component({
   selector: 'app-index-home',
   templateUrl: './index-home.component.html',
@@ -7,7 +12,13 @@ import { VideoUrlService } from '../../../shared/services/video-url.service'
 })
 export class IndexHomeComponent implements OnInit {
   
-  constructor(private videoURLService:VideoUrlService) { }
+  constructor(private videoURLService:VideoUrlService,title:Title) { 
+  
+      title.setTitle("Interactive Calculators and Quizzes | Outgrow");
+      
+  
+  }
+  
 
   ngOnInit() {
   }

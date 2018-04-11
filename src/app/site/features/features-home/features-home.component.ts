@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-features-home',
   templateUrl: './features-home.component.html',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeaturesHomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(router:Router, title:Title) { 
+    title.setTitle("Product Features | Outgrow");
+  }
 
   ngOnInit() {
   }
