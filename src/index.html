@@ -34,6 +34,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
  
+<script src="https://repuso.com/widgets/jquery-1.11.2.min.js"></script>
+<script>
+
+</script>
+<!-- <script name="/assets/js/index29.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
@@ -78,7 +83,37 @@
 <body>
   
   <app-root></app-root>
-
+  <script>
+    function triggerLiveStaticReviews () {
+      var url = 'https://api.repuso.com/v1/widgets/posts/4406?callback=jQuery111205308389182797406_1512564953651&website_id=0&_=1512564953652';
+      var live = document.querySelector('#liveReviews');
+      var static = document.querySelector('#staticReviews');
+  
+      var xhr = new XMLHttpRequest;
+      xhr.onreadystatechange = function (a) {
+        console.log('Ready state changed', a);
+        if (this.status == 200) {
+          live.classList.remove('hide'); //show
+          static.classList.add('hide');
+        }
+        else {
+          static.classList.remove('hide');
+          live.classList.add('hide');
+        }
+      }
+      xhr.open("GET", url, true);
+      xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+      xhr.send();
+    }
+  
+    var gridJS = document.createElement('script')
+    gridJS.src = 'https://repuso.com/widgets/grid.js';
+  
+    gridJS.onload = triggerLiveStaticReviews;
+  
+    var head = document.querySelector('head');
+    head.appendChild(gridJS);
+  </script> 
 </body>
 
 </html>

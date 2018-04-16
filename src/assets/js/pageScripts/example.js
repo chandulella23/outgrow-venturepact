@@ -124,7 +124,7 @@ window.changeTab = function (tabName) {
     }
     jQuery('#premade-heading').text(text);
     let hiddenCalcs = document.querySelectorAll('#gallery-content-center li.hide');
-    let selectedCat = jQuery('#calc-cats li.active').children().attr('id');
+    let selectedCat = jQuery('#calc-cats li.active').children().attr('id')
     console.log('tabname=', tabName, selectedCat);
     hiddenCalcs.forEach(function (calc) {
         calc.classList.remove('hide')
@@ -162,7 +162,6 @@ window.changeTab = function (tabName) {
 
 jQuery(document).ready(function () {
     calculateMinHeight();
-    window.Intercom('update', { 'site_example_viewed': new Date() });
     
 	var iframes = iFrameResize({
         log: false,
@@ -184,9 +183,9 @@ jQuery(document).ready(function () {
     //     }
     // })
     runTimeout();
-    jQuery.post('https://api-calc.outgrow.co/api/v1/admin/getCalculators',
+    jQuery.post('http://outgrow-api.herokuapp.com/api/v1/admin/getCalculators',
         function (data, status) {
-            console.log(status, data);
+            console.log("##############",status, data);
             if (status === 'success') {
                 window.calcs = data.data.calculators;
                 window.calcs.forEach(calc => {
@@ -203,6 +202,7 @@ jQuery(document).ready(function () {
 
                 });
                 jQuery('#premade-content').removeClass('hide');
+                jQuery('#premade-heading').removeClass('hide');
                 jQuery('#premade-loader').addClass('hide');
                 setPremade();
                 shuffleCalcs('Auto');
