@@ -1,4 +1,4 @@
-.pricing_heading{
+/* .pricing_heading{
     font-family: montserratregular - 400;
     font-weight: 400;
     background-color:#FB6C73;
@@ -24,4 +24,7 @@
     border: 1px solid #FB5F66;
     background-color: #FB5F66;
     color:white;
+  } */
+  .disp{
+    display: block
   }
