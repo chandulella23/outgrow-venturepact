@@ -449,12 +449,13 @@
                                     <span class="feature-title">Collaborators</span>
                                     <span class="feature-subtitle"><span class="half"></span>3</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <li class="expand-rs " (click)="smallExpand($event,1)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
-                                        <i class="material-icons minus">remove</i> 
+                                        <i class="material-icons minus">remove</i>
                                         Templates and Layouts
                                     </span>
+                                        
                                     <span class="feature-subtitle"><span class="full"></span>All Templates & Layouts </span>
                                     <span class="detail">All layouts and templates are unlocked.</span>
                                 </li>
@@ -467,7 +468,7 @@
                                     <span class="feature-subtitle"><span class="half"></span>Full Access </span>
                                     <span class="detail">Add lead generation capabilities to any calculator or quiz.</span>
                                 </li> -->
-                                <li class="expand-rs">
+                                <li class="expand-rs"  (click)="smallExpand($event,2)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -486,7 +487,7 @@
                                     <!--<span class="detail"></span>-->
                                 </li>
                                 
-                                <li class="expand-rs">
+                                <li class="expand-rs" (click)="smallExpand($event,3)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -495,7 +496,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                     <span class="detail">You can add your own logo and use your brand’s colors. A small discreet Outgrow logo will appear.</span>
                                 </li>
-                                <li class="expand-rs">
+                                <li class="expand-rs" (click)="smallExpand($event,4)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -505,7 +506,7 @@
                                     <span class="detail">You can sync user's contact information using Zapier or over 17 native integrations with tools like Marketo, Salesforce, MailChimp, Aweber, Hubspot, GetResponse, Intercom, Sendlane, Drip, Slack etc. </span>
                                 </li>
                                 
-                                <li class="expand-rs">
+                                <li class="expand-rs" (click)="smallExpand($event,5)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -514,16 +515,21 @@
                                     <span class="feature-subtitle"><span class="full"></span>Full Access</span>
                                     <span class="detail">You can use any mathematical (^, log etc) or logical (if then, average etc) operator as well as use visual logic jump [branching logic] to improve personalization.</span>
                                 </li>
-                                <li class="expand-rs">
+                                <!-- <style>
+                                    li:active ~ .detail {
+                                        display: block;
+                                    }
+                                </style> -->
+                                <li class="expand-rs" (click)="smallExpand($event,6)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
                                         Analytics and Tracking
                                     </span>
                                     <span class="feature-subtitle"><span class="half"></span>Standard Access</span>
-                                    <span class="detail">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
+                                    <span class="detail block">Traffic Details, Lead Data and User Responses. Can add Facebook and Google Analytics tracking codes.</span>
                                 </li>
-                                <li class="expand-rs">
+                                <li class="expand-rs" (click)="smallExpand($event,7)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
@@ -532,7 +538,7 @@
                                     <span class="feature-subtitle"><span class="quater"></span>Limited Access</span>
                                      <span class="detail">Access to conditional messaging.</span> 
                                 </li>
-                                <li class="expand-rs">
+                                <li class="expand-rs" (click)="smallExpand($event,8)">
                                     <span class="feature-title">
                                         <i class="material-icons plus">add</i>
                                         <i class="material-icons minus">remove</i> 
