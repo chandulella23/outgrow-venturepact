@@ -19,7 +19,8 @@ import { CoreModule } from './core.module';
     FooterComponent
   ],
   imports: [
-    BrowserModule,CoreModule.forRoot(),
+    BrowserModule,
+    CoreModule,
     RouterModule.forRoot(routes)  ],
   providers: [],
   bootstrap: [AppComponent]

@@ -22,9 +22,13 @@
         "styles.css"
       ],
       "scripts": [
+<<<<<<< HEAD
         "../node_modules/jquery/dist/jquery.js",
         "../node_modules/jquery/dist/jquery.min.js",
         "./assets/js/pricing.js"
+=======
+        "../src/assets/js/pageScripts/example.js"
+>>>>>>> b8f5089316eebb49f3de4bacf0924132fbb42af6
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
