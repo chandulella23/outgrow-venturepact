@@ -14,9 +14,9 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.0",
+    "@angular/cli": "~1.7.1",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
-    "@angular/cli": "~1.7.1",
     "@angular/compiler-cli": "^5.2.0",
     "@angular/core": "^5.2.0",
     "@angular/forms": "^5.2.0",
@@ -26,17 +26,16 @@
     "@angular/router": "^5.2.0",
     "bootstrap": "^4.0.0",
     "core-js": "^2.4.1",
-    "express":"^4.15.3",
+    "express": "4.16.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "popper": "^1.0.1",
     "popper.js": "^1.12.3",
     "rxjs": "^5.5.6",
-    "zone.js": "^0.8.19",
-    "typescript": "~2.5.3"
+    "typescript": "~2.5.3",
+    "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    
     "@angular/language-service": "^5.2.0",
     "@types/jasmine": "~2.8.3",
     "@types/jasminewd2": "~2.0.2",
@@ -54,7 +53,7 @@
     "tslint": "~5.9.1"
   },
   "engines": {
-    "node":"8.9.4",
-    "npm":"5.6.0"
+    "node": "8.9.4",
+    "npm": "5.6.0"
   }
 }
