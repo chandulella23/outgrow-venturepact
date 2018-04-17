@@ -1,4 +1,8 @@
-<link rel="stylesheet" href="assets/css/allPage_minified.css">
+<link rel="stylesheet" href="../../../../assets/css/allPage_minified.css">
+<script src="../../../../assets/js/swiper.min.js"></script>
+<script src="https://repuso.com/widgets/grid.js"></script>
+<script src="https://repuso.com/widgets/jquery-1.11.2.min.js"></script>
+
 <div class="" id="">
 	
 	<section class="section section-1">
@@ -51,8 +55,6 @@
 						</div>
 					</div>
 
-					
-
 				</div>
 			</div>
 
@@ -89,7 +91,7 @@
 			<div class="col-md-12 col-sm-12 col-xs-12 np rs-hide text-center hide-height video-img-shadow" id="video-main">
 				<div class="video-img-wrapper">
 					<div class="overflow-hidden">
-						<div class="video-img-inner video-img-inner-web" id="him1" onclick="changeHeightWeb1()">
+						<div class="video-img-inner video-img-inner-web" id="him1" (click)="changeHeightWeb1()">
 							<img alt="video thumbnail image" class="video-img" src="http://dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" data-src="//dzvexx2x036l1.cloudfront.net/video-thumbnail.jpg" />
 							<span class="img-overlay"></span>
 							<span class="video-playIcon">
@@ -115,7 +117,16 @@
 				</div>
 			</div>
 
-			
+			<!-- <script>
+				document.getElementsByClassName("video-playIcon")[0].onclick = function () {
+					console.log('Some cick');
+					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=1&amp;iv_load_policy=3'
+				}
+				function btnclose() {
+					document.getElementsByClassName("outgrow-video-mob")[0].src = 'https://www.youtube.com/embed/PmN_MY5kNrE?vq=hd720&amp;rel=0&amp;controls=0&amp;showinfo=0;autoplay=0&amp;iv_load_policy=3'
+				}
+			</script> -->
+
 		</div>
 	</section>
 
@@ -624,7 +635,7 @@
 		</div>
 	</div>
 	
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1 hide" id="liveReviews">
+	<div  *ngIf="liveIf==1" class="col-md-12 col-sm-12 col-xs-12 text-center np case-breathers1" id="liveReviews">
 		<div class="container mobile-container">
 			<div class="section-2-heading" style="color: rgb(34, 34, 34);">
 				Critically Acclaimed
@@ -632,7 +643,7 @@
 			<div class="social-media-section">
 				<div class="each-arrow-section">
 					<div id="fb-img" class="arrow_box testactive" onclick="openTestimonial('fb')">
-						<img alt="Facebook image" src="http://dzvexx2x036l1.cloudfront.net/facebookim.png"/> 
+						<img  alt="Facebook image" src="http://dzvexx2x036l1.cloudfront.net/facebookim.png"/> 
 						<img alt="Facebook image" src="http://dzvexx2x036l1.cloudfront.net/facebookh.png" class="over over1"/>  
 					</div>
 		
@@ -670,7 +681,7 @@
 	</div>
 
 	<!-- start static HTML of fb, capterra and g2 crowd -->
-	<div class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds" id="staticReviews">
+	<div *ngIf="staticIf===1" class="col-md-12 col-sm-12 col-xs-12 text-center np custom-embeds" id="staticReviews">
 		<div class="container mobile-container">
 			<div class="section-2-heading" style="color: rgb(34, 34, 34);">
 				Critically Acclaimed
@@ -699,13 +710,13 @@
 									<i class="material-icons">star_rate</i>
 								</div>
 								<div class="testimonial-bottom-right">
-									<div class="testi-content">
+									<div class="testi-content" >
 										<span class="testi-desig ellipsis">Dapo Bankole</span>
 										<a href="javascript:void(0);" class="view-post ellipsis">View Post
 											<img alt="Facebook logo image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-fb-mini.png">
 										</a>
 									</div>
-									<img alt="user image" src="https://dzvexx2x036l1.cloudfront.net/testimonial-userImg-dapo.png">
+									
 								</div>
 							</div>
 						</div>
@@ -1241,7 +1252,6 @@
 			</div>
 		</div>		
 	</div>
-	<!-- end static HTML of fb, capterra and g2 crowd -->
 
 	
 	

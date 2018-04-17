@@ -46,9 +46,9 @@
   src: url(MaterialIcons-Regular.eot); 
   src: local('Material Icons'),
        local('materialIcons-Regular'),
-       url(../fonts/materialIcons-Regular.woff2) format('woff2'),
-       url(../fonts/materialIcons-Regular.woff) format('woff'),
-       url(../fonts/materialIcons-Regular.ttf) format('truetype');
+       url(../../fonts/materialIcons-Regular.woff2) format('woff2'),
+       url(../../fonts/materialIcons-Regular.woff) format('woff'),
+       url(../../fonts/materialIcons-Regular.ttf) format('truetype');
 }
 .material-icons {
   font-family: 'Material Icons';

@@ -51,8 +51,7 @@ window.setUTMRefCookie = function() {
 }, window.callGA = function(a) {
     switch (a) {
         case "CANNOT WAIT CTA":
-            console.log('CANNOT WAIT CTA')
-            ga("send", "event", "Signup", "Click", "LP_FirstFold");
+            ga("markettingteam.send", "event", "Signup", "Click", "LP_FirstFold");
             break;
         case "WHY":
             ga("markettingteam.send", "event", "Header", "Click", "LP_Header_WhyCalc");

@@ -40,7 +40,7 @@ showDivs(slideIndex);
 
 jQuery(document).ready(function () {
 
-	window.Intercom('update', { 'site_feature_viewed': new Date() });
+
     var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
 		paginationClickable: true
