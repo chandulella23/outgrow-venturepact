@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+
 import { Router } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-features-home',
   templateUrl: './features-home.component.html',
-  styleUrls: ['./features-home.component.css']
+  styleUrls: ['./features-home.component.css','../../../../assets/css/custom-sa.css','../../../../assets/css/sahil-hover.css','../../../../assets/css/home-responsive.css','../../../../assets/css/feature-responsive.css']
 })
 export class FeaturesHomeComponent implements OnInit {
 

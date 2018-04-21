@@ -7,7 +7,7 @@ declare let jQuery: any;
 @Component({
   selector: 'app-pricing-home',
   templateUrl: './pricing-home.component.html',
-  styleUrls: ['./pricing-home.component.css']
+  styleUrls: ['./pricing-home.component.css','../../../../assets/css/pricing-dup.css','../../../../assets/css/sahil-hover.css','../../../../assets/css/home-responsive.css','../../../../assets/css/pricing-dup-res.css']
 })
 export class PricingHomeComponent implements OnInit {
   public isActive0; isActive1; isHideFree0; isHideFree1; isHideEssen0; isHideEssen1; isHideBusi0; isHideBusi1;

@@ -1,8 +1,7 @@
-import {ScriptService} from './shared/services/script.service';
 import {ModuleWithProviders, NgModule, Optional, SkipSelf } from '@angular/core';
-
+import {Script} from './shared/services/script.service';
 @NgModule({
-    
+    exports: []
 })
 
 export class CoreModule {
@@ -10,7 +9,7 @@ export class CoreModule {
     static forRoot(): ModuleWithProviders {
         return {
             ngModule: CoreModule,
-            providers: [ ScriptService]
+            providers: [ Script]
         };
     }
 

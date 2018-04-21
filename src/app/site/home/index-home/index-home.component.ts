@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { VideoUrlService } from '../../../shared/services/video-url.service'
-import { ScriptService } from '../../../shared/services/script.service'
 
 import { Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
@@ -40,11 +39,7 @@ export class IndexHomeComponent implements OnInit {
     xhr.send();
   }
   
-<<<<<<< HEAD
   constructor(private videoURLService:VideoUrlService,title:Title) { 
-=======
-  constructor(private videoURLService:VideoUrlService,title:Title,public scriptService:ScriptService,private http: Http) { 
->>>>>>> 20a3c491b61dc4c6e91b955183a55a13a285ee4c
   //   // var gridJS = document.createElement('script')
   //     title.setTitle("Interactive Calculators and Quizzes | Outgrow");
    }
