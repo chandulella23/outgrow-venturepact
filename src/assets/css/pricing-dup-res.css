@@ -430,7 +430,7 @@
 	.detail {line-height: 36px; font-size: 30px; padding: 20px 20px 0px 20px;}
 	thead span {margin: 20px auto;}
 	.quater{
-		background: url(./assets/images/pricing-quarter.png) no-repeat !important;
+		background: url(../images/pricing-quarter.png) no-repeat !important;
 		width: 30px;
 		height: 30px;
 		margin-right: 15px;
@@ -438,7 +438,7 @@
     	top: -1px;
 	}
 	.half{
-		background: url(./assets/images/pricing-half.png) no-repeat !important;
+		background: url(../images/pricing-half.png) no-repeat !important;
 		width: 30px;
 		height: 30px;
 		margin-right: 15px;
@@ -446,7 +446,7 @@
     	top: -1px;
 	}
 	.full{
-		background: url(./assets/images/pricing-full.png) no-repeat !important;
+		background: url(../images/pricing-full.png) no-repeat !important;
 		width: 30px;
 		height: 30px;
 		margin-right: 15px;
@@ -454,7 +454,7 @@
     	top: -1px;
 	}
 	.none{
-		background: url(./assets/images/pricing-none.png) no-repeat !important;
+		background: url(../images/pricing-none.png) no-repeat !important;
 		width: 30px;
 		height: 30px;
 		margin-right: 15px;

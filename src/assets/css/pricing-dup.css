@@ -11,13 +11,13 @@
 	font-family: montserratbold;
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/montserrat-bold-webfont.woff2) format("woff2"), url(../fonts/montserrat-bold-webfont.woff) format("woff"), url(../fonts/montserrat-bold-webfont.ttf) format("truetype")
+	src:  url(../fonts/montserrat-bold-webfont.woff2) format("woff2"), url(../fonts/montserrat-bold-webfont.woff) format("woff"), url(../fonts/montserrat-bold-webfont.ttf) format("truetype")
 }
 @font-face {
 	font-family: montserratsemibold;
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/montserrat-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/montserrat-semibold-webfont.woff2) format("woff2"), url(../fonts/montserrat-semibold-webfont.woff) format("woff"), url(../fonts/montserrat-semibold-webfont.ttf) format("truetype")
+	src:  url(../fonts/montserrat-semibold-webfont.woff2) format("woff2"), url(../fonts/montserrat-semibold-webfont.woff) format("woff"), url(../fonts/montserrat-semibold-webfont.ttf) format("truetype")
 }
 @font-face {
 	font-family: montserratlight;
@@ -63,8 +63,7 @@
 }
 @font-face {
 	font-family: montserrat-bold;
-	src: url(../fonts/montserrat-bold-webfont.eot);
-	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), url(../fonts/montserrat-bold-webfont.woff) format('woff'), url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
+	src: url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), url(../fonts/montserrat-bold-webfont.woff) format('woff'), url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
 	font-weight: 400;
 	font-style: normal
 }
@@ -461,7 +460,7 @@ label {
 		min-height: 250px;
 	}
 	.bg1-img {
-		background: url(./assets/images/strtFreeTrial.jpg) no-repeat;
+		background: url(../images/strtFreeTrial.jpg) no-repeat;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

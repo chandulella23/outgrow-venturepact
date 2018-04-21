@@ -5223,7 +5223,7 @@
     }
 }
 @media only screen and (max-width:380px) {    
-    .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;
+    .start-trial-cta .btn-buildcal p {line-height: 18px; float: none;}
 }
 
 @media only screen and (max-width:1024px) {

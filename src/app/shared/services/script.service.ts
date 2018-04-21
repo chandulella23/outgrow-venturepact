@@ -3,15 +3,9 @@ import { ScriptStore } from './script.store';
 
 declare var document: any;
 declare var jQuery: any;
-<<<<<<< HEAD
-@Injectable()
-export class ScriptService {
-
-=======
 
 @Injectable()
 export class Script {
->>>>>>> b8f5089316eebb49f3de4bacf0924132fbb42af6
   public scripts: any = {};
 
   load(...scripts: string[]) {
@@ -90,8 +84,4 @@ export class Script {
       document.getElementsByTagName('head')[0].appendChild(script);
     });
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> b8f5089316eebb49f3de4bacf0924132fbb42af6
 }

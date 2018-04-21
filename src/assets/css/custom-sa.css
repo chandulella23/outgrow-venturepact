@@ -65,8 +65,8 @@
 }
 @font-face {
 	font-family: montserratregular;
-	src: url(../fonts/montserrat-regular-webfont.eot);
-	src: url(../fonts/montserrat-regular-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/montserrat-regular-webfont.woff2) format('woff2'), url(../fonts/montserrat-regular-webfont.woff) format('woff'), url(../fonts/montserrat-regular-webfont.ttf) format('truetype');
+	src: url("../fonts/montserrat-regular-webfont.eot");
+	src: url("../fonts/montserrat-regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/montserrat-regular-webfont.woff2") format('woff2'), url("../fonts/montserrat-regular-webfont.woff") format('woff'), url("../fonts/montserrat-regular-webfont.ttf") format('truetype');
 	font-weight: 400;
 	font-style: normal;
 	font-smooth: always;
@@ -74,25 +74,26 @@
 }
 @font-face {
 	font-family: montserratbold;
+	src:  url("../fonts/montserrat-bold-webfont.woff2") format('woff2'), url("../fonts/montserrat-bold-webfont.woff") format('woff'), url("../fonts/montserrat-bold-webfont.ttf") format('truetype');
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/montserrat-bold-webfont.woff2) format("woff2"), url(../fonts/montserrat-bold-webfont.woff) format("woff"), url(../fonts/montserrat-bold-webfont.ttf) format("truetype")
+	
 }
 @font-face {
 	font-family: montserratsemibold;
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/montserrat-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/montserrat-semibold-webfont.woff2) format("woff2"), url(../fonts/montserrat-semibold-webfont.woff) format("woff"), url(../fonts/montserrat-semibold-webfont.ttf) format("truetype")
+	src:  url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff"), url("../fonts/montserrat-semibold-webfont.ttf") format("truetype")
 }
 @font-face {
 	font-family: montserratlight;
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/montserrat-light-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/montserrat-light-webfont.woff2) format("woff2"), url(../fonts/montserrat-light-webfont.woff) format("woff"), url(../fonts/montserrat-light-webfont.ttf) format("truetype")
+	src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype")
 }
 @font-face {
 	font-family: montserratultra_light;
-	src: url(../fonts/montserrat-ultralight-webfont.woff2) format('woff2'), url(../fonts/montserrat-ultralight-webfont.woff) format('woff'), url(../fonts/montserrat-ultralight-webfont.ttf) format('truetype');
+	src: url("../fonts/montserrat-ultralight-webfont.woff2") format('woff2'), url("../fonts/montserrat-ultralight-webfont.woff") format('woff'), url("../fonts/montserrat-ultralight-webfont.ttf") format('truetype');
 	font-weight: 400;
 	font-style: normal
 }
@@ -100,14 +101,14 @@
 	font-family: montserrathairline;
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/montserrat-hairline-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/montserrat-hairline-webfont.woff2) format("woff2"), url(../fonts/montserrat-hairline-webfont.woff) format("woff"), url(../fonts/montserrat-hairline-webfont.ttf) format("truetype")
+	src: url("../fonts/montserrat-hairline-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-hairline-webfont.woff2") format("woff2"), url("../fonts/montserrat-hairline-webfont.woff") format("woff"), url("../fonts/montserrat-hairline-webfont.ttf") format("truetype")
 }
 @font-face {
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/MaterialIcons-Regular.eot);
-	src: local('Material Icons'), local('materialIcons-Regular'), url(../fonts/materialIcons-Regular.woff2) format('woff2'), url(../fonts/materialIcons-Regular.woff) format('woff'), url(../fonts/materialIcons-Regular.ttf) format('truetype')
+	src: url("../fonts/MaterialIcons-Regular.eot");
+	src: local('Material Icons'), local('materialIcons-Regular'), url("../fonts/materialIcons-Regular.woff2") format('woff2'), url("../fonts/materialIcons-Regular.woff") format('woff'), url("../fonts/materialIcons-Regular.ttf") format('truetype')
 }
 .material-icons {
 	font-family: 'Material Icons';
@@ -128,8 +129,8 @@
 }
 @font-face {
 	font-family: montserrat-bold;
-	src: url(../fonts/montserrat-bold-webfont.eot);
-	src: url(../fonts/montserrat-bold-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/montserrat-bold-webfont.woff2) format('woff2'), url(../fonts/montserrat-bold-webfont.woff) format('woff'), url(../fonts/montserrat-bold-webfont.ttf) format('truetype');
+	/* src: url("../fonts/montserrat-bold-webfont.eot"); */
+	src:  url("../fonts/montserrat-bold-webfont.woff2") format('woff2'), url("../fonts/montserrat-bold-webfont.woff") format('woff'), url("../fonts/montserrat-bold-webfont.ttf") format('truetype');
 	font-weight: 400;
 	font-style: normal
 }
@@ -431,26 +432,26 @@ label {
 	overflow: hidden
 }
 .collag1-img {
-	background-image: url(./assets/images/new-collag1.jpg);
+	background-image: url(../images/new-collag1.jpg);
 	float: left;
 	width: 100%;
 	min-height: 385px
 }
 .collag2-img {
-	background-image: url(./assets/images/collag4-big.jpg);
+	background-image: url(../images/collag4-big.jpg);
 	float: left;
 	width: 100%;
 	min-height: 225px
 }
 .collag3-img {
-	background-image: url(./assets/images/new-collag2-insurance.jpg);
+	background-image: url(../images/new-collag2-insurance.jpg);
 	background-position: 85% 50%;
 	float: left;
 	width: 100%;
 	min-height: 275px
 }
 .collag4-img {
-	background-image: url(./assets/images/new-collag3-soccer1.jpg);
+	background-image: url(../images/new-collag3-soccer1.jpg);
 	background-position: top center;
 	float: left;
 	width: 100%;
@@ -1794,7 +1795,7 @@ label {
 	margin: 30px 0px 0px;
 }
 .bg1-img {
-	background: url(./assets/images/strtFreeTrial.jpg) no-repeat;
+	background: url(../images/strtFreeTrial.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -4150,7 +4151,7 @@ button.swiper-pagination-bullet {
 	margin-bottom: 2px
 }
 #why .collag3-img {
-	background-image: url(./assets/images/why-graph2.jpg);
+	background-image: url(../images/why-graph2.jpg);
 	background-position: center top;
 	float: left;
 	width: 100%;
@@ -4162,7 +4163,7 @@ button.swiper-pagination-bullet {
 	transform: scale(1.2)
 }
 #why .collag4-img {
-	background-image: url(./assets/images/why-graph1.jpg);
+	background-image: url(../images/why-graph1.jpg);
 	background-position: center center;
 	float: left;
 	width: 100%;
@@ -6059,7 +6060,7 @@ iframe[name=google_conversion_frame] {
 
 
 .bg2-img {
-	background: url(./assets/images/bg-gen-ideas.jpg) no-repeat;
+	background: url(../images/bg-gen-ideas.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -6142,7 +6143,7 @@ iframe[name=google_conversion_frame] {
 	/* centers the loading animation horizontally on the screen */
 	top: 50%;
 	/* centers the loading animation vertically on the screen */
-	background-image: url("./assets/images/loaders/logoAnim.gif");
+	background-image: url("../images/loaders/logoAnim.gif");
 	/* path to your loading animation */
 	background-repeat: no-repeat;
 	background-position: center;

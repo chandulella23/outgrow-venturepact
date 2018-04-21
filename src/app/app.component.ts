@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ScriptService } from './shared/services/script.service';
+
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -8,13 +8,6 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
- constructor(private script:ScriptService){}
-
- ngOnInit()
- {
-   this.script.load("index","example").then( (data)=>{
-      console.log(data,">>>>>>>");
-   })
- }
+ 
 }
 
