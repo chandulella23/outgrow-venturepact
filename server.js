@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const app = express();
 // Run the app by serving the static files
@@ -14,3 +15,9 @@ const path = require('path');
 app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname + '/dist/index.html'));
 });
+=======
+var express = require('express');
+var app=express();
+app.use(express.static(__dirname + '/server'));
+app.listen(process.env.PORT || 3000);
+>>>>>>> c66877886af97b44f946859665bbf8d2eefdcd2d
