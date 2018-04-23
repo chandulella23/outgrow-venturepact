@@ -10,7 +10,7 @@ import { element } from 'protractor';
 @Component({
   selector: 'app-index-home',
   templateUrl: './index-home.component.html',
-  styleUrls: ['./index-home.component.css']
+  styleUrls: ['./index-home.component.css','../../../../assets/css/sahil-hover.css','../../../../assets/css/home-responsive.css','../../../../assets/css/custom-sa.css']
 })
 export class IndexHomeComponent implements OnInit {
 
